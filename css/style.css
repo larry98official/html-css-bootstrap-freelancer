@@ -116,3 +116,51 @@ a {
     background-color: none;
     border:
 }
+
+#bottone {
+    font-size: 20px;
+    background-color: #1abc9c;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 16px 28px;
+    font-weight: 400;
+}
+
+.secundary {
+    height: 973px;
+    padding: 96px 0;
+}
+
+.check-point {
+    margin-top: 50px;
+}
+
+.formulario {
+    text-align: left;
+}
+
+.form-group {
+    border-bottom: 1px solid #e9ecef;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    /* z-index: 0;
+    margin: 0;
+    transition: top .3s ease,opacity .3s ease;
+    opacity: 0; */
+}
+
+.control-text {
+    font-size: 25px;
+    border: none;
+    /* z-index: 1;
+    padding-right: 0;
+    padding-left: 0;
+    resize: none;
+    border-radius: 0;
+    background: 0 0;
+    box-shadow: none; */
+}
