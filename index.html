@@ -7,16 +7,18 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5e50c7a217.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <div class="nav">
                 <div class="lista">
-                    <div class="row">
-                        <div class="primo col-xs-12 col-lg-6">
+                    <div class="row text-uppercase">
+                        <div class="primo col-xs-12 col-lg-4">
                             <a href="#">START BOOTSTRAP</a>
                         </div>
-                        <div class="secondo col-xs-12 col-lg-6">
+                        <div class="secondo col-xs-12 col-lg-4 col-lg-offset-4">
+                            <button type="button" name="button" class="navbar-toggle"></button>
                             <a class="navlist" class="col-lg-3 col-lg-offset-3" href="#">PORTFOLIO</a>
                             <a class="navlist" class="col-lg-3" href="#">ABOUT</a>
                             <a class="navlist" class="col-lg-3" href="#">CONTACT</a>
@@ -30,12 +32,12 @@
                 <div class="homepage">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="avatar" style="weight:240px; height:255px">
+                            <img class="responsive center-block" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="avatar" style="weight:240px; height:255px">
                             <h1>START BOOTSTRAP</h1>
                             <div class="divider-costum">
                                 <div class="divider-line"></div>
                                 <div class="divider-star">
-                                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
                                 </div>
                                 <div class="divider-line"></div>
                             </div>
@@ -107,7 +109,8 @@
                     <div class="button">
                         <a href="#"><button type="button" name="button" id="bottone">
                             <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-                            Free Download!</button></a>
+                            Free Download!
+                        </button></a>
                     </div>
                 </div>
             </div>
@@ -154,12 +157,50 @@
                                     </div>
                                 </div>
                                 <div class="send">
-                                    <button type="button" name="button" id="success">Send</button>
+                                    <button type="button" name="button" id="bt-send">Send</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="homepage">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>LOCATION</h4>
+                        <p class="lead">2215 John Daniel Drive <br>
+                           Clark, MO 65243
+                       </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4>ABOUT THE WEB</h4>
+                        <a href="#" class="btn-social">
+                        <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="btn-social">
+                        <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="btn-social">
+                        <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="btn-social">
+                        <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4>ABOUT FREELANCER</h4>
+                        <p class="lead">Freelance is a free to use, MIT licensed Bootstrap theme created by
+                        <a href="#" class="lsta">Start Bootstrap</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="copyright">
+            <div class="homepage">
+                <small>Copyright © Your Website 2019</small>
             </div>
         </section>
     </body>
