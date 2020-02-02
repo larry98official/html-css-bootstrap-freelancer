@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-default navbar-fixed-top ms--bg-dark  text-uppercase">
+            <nav class="navbar navbar-default navbar-fixed-top ms--bg-dark  text-uppercase" id="main_nav">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed ms--bg-light" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -24,14 +24,14 @@
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li class="nav-item"><a href="#portfolio" class="navbar-list">Portfolio</a></li>
+                            <li class="nav-item"><a href="#about" class="navbar-list">About</a></li>
+                            <li class="nav-item"><a href="#contact" class="navbar-list">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            </header>
+        </header>
         <section>
             <div class="banner">
                 <div class="homepage">
@@ -53,7 +53,7 @@
             </div>
         </section>
         <section>
-            <div class="jambotron">
+            <div class="jambotron" id="portfolio">
                 <div class="homepage">
                     <h2>PORTFOLIO</h2>
                     <div class="divider-costum">
@@ -105,7 +105,7 @@
             </div>
         </section>
         <section>
-            <div class="primary">
+            <div class="primary" id="about">
                 <div class="homepage">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </section>
-        <section class="secundary">
+        <section class="secundary" id="contact">
             <div class="homepage">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -152,29 +152,26 @@
                             <form class="formulario" action="" method="post">
                                 <div class="control">
                                     <div class="form-group" id="name">
-                                        <label for="">Name</label>
-                                        <input class="control-text" type="text" name="" value="">
-                                        <p class="text-danger"></p>
+                                        <input class="form-control input-lg" type="text" placeholder="Name">
+                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="control">
                                     <div class="form-group" id="email">
-                                        <label for="">EMail Adress</label>
-                                        <input class="control-text" type="text" name="" value="">
-                                        <p class="text-danger"></p>
+                                        <!--  has-error <label class="control-label" for="inputError1"></label> id="inputError1" -->
+                                        <input class="form-control input-lg" type="text" placeholder="Email Adress">
+                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="control">
                                     <div class="form-group" id="phone">
-                                        <label for="">Phone Number</label>
-                                        <input class="control-text" type="text" name="" value="">
-                                        <p class="text-danger"></p>
+                                        <input class="form-control input-lg" type="text" placeholder="Phone Number">
+                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="control">
                                     <div class="form-group" id="message">
-                                        <label for="">Message</label>
-                                        <!-- <textarea class="control-text" type="text" name="" value="" rows=""> -->
+                                        <textarea class="form-control" placeholder="Message" rows="5"></textarea>
                                     </div>
                                 </div>
                                 <div class="send">
