@@ -87,7 +87,6 @@ a:-webkit-any-link {
 }
 
 img {
-    margin-bottom: 28px;
     position: block;
 }
 
@@ -120,17 +119,24 @@ h1 {
 }
 
 .plus {
-    height: 253px;
-    width: 350.3px;
+    height: 100%;
+    width: 100%;
     cursor: pointer;
     position: absolute;
     background-color: rgba(26,188,156,.9);
     opacity: 0;
     border-radius: 10px;
-    margin-left: 4.85px;
 }
 
-.plus:hover {
+.colonna {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.colonna:hover .plus,
+.colonna:hover .plus span {
     opacity: 1;
 }
 
@@ -138,16 +144,10 @@ h1 {
     font-size: 70px;
     color: white;
     position: absolute;
-    top: 100px;
-    right: 0;
-    /* bottom: 0; */
-    left: 0;
-    /* transform: translate(-50%,-50%); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     opacity: 0;
-}
-
-.glyphicon-plus:hover {
-    opacity: 1;
 }
 
 #piu {
@@ -173,6 +173,9 @@ h1 {
 
 .glyphicon {
     font-weight: 900;
+}
+
+.glyphicon-star {
     margin: 0 16px;
 }
 
